@@ -1,0 +1,75 @@
+
+body{
+    
+   height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:solid black;
+    
+}
+.container{
+    position: relative;
+  height:600px;
+    width:700px;
+    background: white;
+    border-radius: 0px;
+    overflow: hidden;
+    margin: 0 20px;
+ text-align: center;
+  border: 1px solid black;
+  box-shadow: so;
+  
+    
+}
+.ftitle{
+font-family:Georgia, 'Times New Roman', Times, serif;
+border-bottom: 5px solid rgb(21, 133, 133);
+background-color: rgb(21, 133, 133);
+color: white;
+border-top: 10px solid rgb(21, 133, 133);
+font-size: 20px;
+border:1px solid black;
+
+
+}
+.input-field{
+   display: block;
+   align-items: center;
+   margin:10px;
+   text-align:justify;
+   
+   width:100%;
+}
+form{
+    text-align: center;
+}
+fieldset{
+   margin: 10px;
+   border:1px solid black;
+}
+
+input{
+    height: 26px;
+    width:80%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+button{
+    height:40px;
+    width:96%;
+    color:white;
+    background-color:  rgb(21, 133, 133);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+button:hover{
+    background-color:  rgb(146, 195, 195);;
+    color: rgb(5, 5, 5);
+}
+
+
+

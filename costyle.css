@@ -1,0 +1,219 @@
+
+body{
+    background-color:rgb(220, 249, 249);
+}
+.head1{
+    background-color: rgb(43, 99, 99);
+    height: 70px;
+    display: flex;
+}
+.img1{
+    margin: 5px;
+    padding:5px;
+}
+.txt{
+    color: rgb(254, 253, 252);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.head2{
+    background-color: rgb(67, 155, 155);
+    height: 85px;
+    display:flex;
+    flex-direction: column;
+}
+.txt2{
+    color: aliceblue;
+    font-weight: 100;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    
+}
+.win{
+    font-size: 12px;
+}
+
+
+.container2{
+    display:contents;
+    align-items:center;
+    text-align: center;
+
+}
+.heading{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: rgb(34, 116, 116);
+   
+}
+.boxcontainer{
+    margin: 50px;
+   display: flex;
+   justify-content: center;
+}
+.box1{
+    height: 400px;
+    width:300px;
+    background-color:rgb(244, 249, 249);
+    border-radius: 5px;
+    text-shadow: 10px;
+   
+    
+}
+.title{
+    background-color: teal;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+   
+}
+.img2{
+    margin: 10px;
+}
+.text{
+    background-color: rgb(0, 128, 128);
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 90px;
+    letter-spacing: 0.5px;
+    word-spacing: 9px;
+    font-size: 17px;
+    
+}
+.link{
+    color: rgb(117, 115, 115);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:17px;
+    word-spacing: 5px;
+    
+}
+.link a{
+    color: gray;
+}
+.link a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(18, 48, 242);
+}
+
+.footbox{
+    background-color: rgb(34, 87, 87);
+    display: flex;
+    height:250px;
+
+}
+.support{
+    margin:10px;
+    margin-top: 2px;
+    color:rgb(127, 214, 214);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-decoration: underline solid;
+    width:190px;
+}
+.resources{
+    margin:10px;
+    margin-top: 2px;
+    color:rgb(127, 214, 214);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-decoration: underline solid;
+    width:190px;
+}
+.contact{
+    margin-top: 2px;
+    color:rgb(127, 214, 214);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-decoration: underline solid;
+    width:190px;
+    
+    
+}
+li{
+    color: aliceblue;
+    font-size: 17px;
+    text-decoration: none;
+    list-style: none;
+}
+li:hover{
+    cursor: pointer;
+    color: gray;
+}
+.symptoms{
+    display: block;
+    margin:10px;
+    margin-top: 2px;
+    color:rgb(127, 214, 214);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-decoration:none;
+    width:190px;
+    
+}
+.symptoms li{
+   list-style: none;
+
+}
+.symptoms li:hover{
+    text-transform: none;
+    color: red;
+}
+
+
+
+
+  
+  /* Dropdown js*/
+.dropbtn {
+    background-color: rgb(67, 155, 155);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: -53px;
+   left:1398px;
+    
+
+  }
+ 
+  .dropbtn:hover, .dropbtn:focus {
+   color: rgb(184, 236, 236);
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 16px;
+    position: relative;
+    top: -75px;
+   left:1398px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;
+}
+
+  .show {display:block;
+}

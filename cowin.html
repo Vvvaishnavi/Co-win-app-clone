@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script language="javascript">
+     function myFunction() {
+                    document.getElementById("myDropdown").classList.toggle("show");
+                  }
+                  
+                  // Close the dropdown menu if the user clicks outside of it
+                  window.onclick = function(event) {
+                    if (!event.target.matches('.dropbtn')) {
+                      var dropdowns = document.getElementsByClassName("dropdown-content");
+                      var i;
+                      for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                          openDropdown.classList.remove('show');
+                        }
+                      }
+                    }
+                  }
+                  </script>
+    <title>My Co-win App</title>
+    <link rel="stylesheet" href="costyle.css">
+</head>
+<style>
+    
+</style>
+<body>
+    <div class="container">
+ <div class="head1">
+    <div class="img1">
+        <div class="txt">
+            <img src = "https://www.pngfind.com/pngs/m/670-6701194_national-emblem-of-india-hd-png-download.png" height="50" width="50"> 
+            Ministry of Health and Family Department
+
+           </div>
+        </div>
+    </div>
+    
+
+    <div class="head2">
+        <div class="txt2">
+            C<img src="https://th.bing.com/th/id/R.6964fcd083c32e3cfc0adb72fd1ed4ec?rik=mjGxm256e3aaJQ&riu=http%3a%2f%2fwww.clker.com%2fcliparts%2fP%2fo%2fS%2f5%2fB%2fe%2fplus-hi.png&ehk=4NM9m1eBh2pQFbSO0atNbcOafYKbd%2bamFvMLWHbcvK0%3d&risl=&pid=ImgRaw&r=0.png" height="25" width="25">-WIN 
+            <div class="win">Winning over COVID-19</div> 
+
+            <div class="dropdown">
+                
+                <button onclick="myFunction()" class="dropbtn"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                    <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"/>
+                  </svg></button>
+                 
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="localhost/phpcodes/regform.php" target="_blank">Register here</a>
+                  <a href="#">Feedback</a>
+                  <a href="#">Help</a>
+                  
+                </div>
+              </div> 
+           
+        </div>
+    </div>
+</div>
+
+
+<div class="container2">
+    <div class="heading">
+        Get Vaccinated In 3 Easy Steps
+    </div>
+    <!--box1-->
+    <div class="boxcontainer">
+        <div class="box1">
+        <div class="title">Step-1</div>
+        <div class="img2"><img src="https://th.bing.com/th/id/OIP.tCZhPt0IlKlGPkyFbgh4FAAAAA?pid=ImgDet&rs=1.jpeg" height="170" width="200"></div>
+        <div class="text">Book an Appointment on Co-WIN or Walk into any Vaccination Center</div>
+        <div class="link"> <a href="https://prod-cdn.preprod.co-vin.in/assets/pdf/User-Guide-Citizen-registration.pdf" target="_blank">How to Book your Appointment on Co-WIN?</a></div>
+    </div>
+    </div>
+<!--box2-->
+    <div class="boxcontainer">
+        <div class="box1">
+        <div class="title">Step-2</div>
+        <div class="img2"><img src="https://cdn.substack.com/image/fetch/w_1200,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/36ac36ee-bd4d-4eb9-a439-3141ed2c99f0_2084x2084.png" height="190" width="200"></div>
+        <div class="text">Get your Vaccination safely at the time of your Appointment</div>
+        <div class="link"><a href="https://prod-cdn.preprod.co-vin.in/assets/pdf/Dos_and_Donts_for_Citizens.pdf" target="_blank"> Understand Do's and Dont's for getting Vaccinated</a></div>
+    </div>
+    </div>
+<!--box3-->
+    <div class="boxcontainer">
+        <div class="box1">
+        <div class="title">Step-3</div>
+        <div class="img2"><img src="https://cdn.substack.com/image/fetch/w_1200,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/36ac36ee-bd4d-4eb9-a439-3141ed2c99f0_2084x2084.png" height="190" width="200"></div>
+        <div class="text">Download your Vaccination Certificate from Co-WIN and wait for Dose#2 </div>
+        <div class="link"><a href="#" target="_blank"> Download your Vaccine Certificate</a></div>
+    </div>
+    </div>
+   
+    <div class="footbox">
+        <div class="support">SUPPORT
+            <ul>
+                <li>FAQ's</li>
+                <li>Certificate correction</li>
+                <li>Certificate verification</li>
+            </ul>
+        </div>
+        <div class="resources">RESOURCES
+            <ul>
+                <li>How to get vaccinated</li>
+                <li>Do's and dont's</li>
+                <li>Overview</li>
+                <li>API Guidelines</li>
+            </ul>
+        </div>
+        <div class="contact">CONTACT US
+            <ul>
+                <li>Reach us</li>
+                <li>Phone</li>
+                <li>Mail</li>
+                <li>Location</li>
+            </ul>
+        </div>
+        <div class="symptoms">
+           POSSIBLE SYMPTOMS
+<li>Cough</li>
+<li>Shortness of breath or difficulty breathing</li>
+<li>Fatigue</li>
+<li>Muscle or body aches</li>
+<li>Headache</li>
+<li>New loss of taste or smell</li>
+<li>Sore throat</li>
+<li>Congestion or runny nose</li>
+        </div>
+    </div>
+</div>
+
+
+
+    
+
+</body>
+</html>

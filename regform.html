@@ -1,0 +1,100 @@
+
+<?php
+include("connect.php");
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>regform</title>
+    <link rel="stylesheet" href="regformstyle.css">
+</head>
+<body>
+    <form action="#" method="POST" >
+  <div class="container">
+    <div class="form">
+            <div class="ftitle">
+                <h3>Registration Form </h3>
+            </div>
+<fieldset>
+            <div class="input-field">
+                <label>First name:</label>
+                <input type="text" placeholder="Enter first name" name="firstname" required>
+            </div>
+
+            <div class="input-field">
+                <label>Last name:</label>
+                <input type="text" placeholder="Enter last name"  name="lastname" required>
+            </div>
+</fieldset>
+<fieldset>
+            <div class="input-field">
+                <label> E-mail ID:</label>
+                <input type="email" placeholder="Enter Email"  name="email" required>
+            </div>
+
+        
+
+</fieldset>
+<fieldset>
+            <div class="input-field">
+                <label>Mobile:</label>
+                <input type="text" placeholder="Enter Mobile Number"  name="phone" required>
+            </div>
+            
+            <div class="input-field">
+                <label>Address:</label>
+                <textarea placeholder="Enter Address.."rows=3 cols="18" name="address"></textarea>
+            </div>
+           
+            </fieldset>
+
+            <input type="submit" value="Submit" name="sub">Submit</input>
+        </div>
+       
+        <p> Already have an account? <span><a href="#">Sign in</a></span></p>
+    </div>
+    
+    </form>
+
+    
+
+   
+    
+        
+    
+    
+</body>
+</html>
+
+
+<?php
+
+if($_POST['sub'])
+{
+$firstname = $_POST['fname'];
+$lastname  = $_POST['lname'];
+$email     = $_POST['mail'];
+$phone     = $_POST['phn'];
+$address   = $_POST['add'];
+
+
+$query = "INSERT INTO REGDB VALUES('$firstname','$lastname' ,'$email','$phone','$address')";
+
+$data = mysqli_query($conn,$query);
+
+if($data)
+{
+    echo "data inserted";
+}
+else{
+    echo "failed";
+}
+}
+
+
+	
+
+?>
